@@ -9,7 +9,7 @@ function readFile() {
             // console.log(row);
             var html = '\
             <div class="w3-col l3 m6 w3-margin-bottom">\
-                <div class="img" style="background-image: url(/images/' + row[2].trim() + ');"></div> \
+                <div class="img" style="background-image: url(images/' + row[2].trim() + ');"></div> \
                 <h3>' + row[4].trim() + ' ' + row[3].trim() + '</h3> \
                 <p class="w3-opacity">Age ' + row[5].trim() + '</p> \
                 <p>Contact <b>' + row[1].trim() + '</b> for more details</p> \
