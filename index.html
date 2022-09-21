@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<style>
+    .img {
+        width: 100%;
+        padding-bottom: 56.25%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<body onload="readFile();">
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <h4 style="margin: 0;"><a href="#home" class="w3-bar-item" style="text-decoration: none;"><b>Benefit
+                        Pets</b></a></h3>
+                <!-- Float links to the right. Hide them on small screens -->
+                <div class="w3-right w3-hide-small" style="margin-top: 5px;">
+                    <span class="w3-bar-item"><i class="fa-solid fa-envelope"></i> abc@gmail.com</span>
+                    <span class="w3-bar-item"><i class="fa-solid fa-phone"></i>+91 12345 67890</span>
+                </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <!-- <img class="w3-image" src="/images/main.jpg" alt="Dog" width="1500" height="800"> -->
+        <div class="img" style="text-align: center; padding: 200px 100px; font: 10em;
+            background: linear-gradient(rgba(255, 255, 255, 0.607), rgba(255, 255, 255, 0.607)), url(/images/main.jpg) center;
+            background-size: cover;">
+            <p class="w3-large w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BenefitPets</b></span>
+            </p>
+            <h3 class="w3-large w3-text-black"><b>Some Things Fill Your Heart Without
+                    Trying</b></h3>
+            <!-- <span class="w3-hide-small w3-text-light-grey">Architects</span> -->
+
+        </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+        <!-- Availability Section -->
+        <div class="w3-container w3-padding-32" id="projects">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+                <hr>Pets Availability
+            </h3>
+        </div>
+
+        <div class="w3-row-padding w3-grayscale" style="padding-bottom: 40px;">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="img" style="background-image: url(/images/1.jpg);">
+                    <!-- <img src="/images/1.jpg" alt="John" style="width:100%; object-fit: cover;"> -->
+                </div>
+                <h3 name="breed">2 Labradors</h3>
+                <p class="w3-opacity" name="age">Age &lt; 2 weeks</p>
+                <p>Contact <b>Arun</b> for more details</p>
+                <p name="mobile"><i class="fa-solid fa-phone"></i> +91 8667099336</p>
+                <p name="mail"><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="img" style="background-image: url(/images/2.jpg);">
+                    <!-- <img src="/images/2.jpg" alt="Jane" style="width:100%; object-fit: cover;"> -->
+                </div>
+                <h3 name="breed">2 Labradors</h3>
+                <p class="w3-opacity" name="age">Age &lt; 2 weeks</p>
+                <p>Contact <b>Arun</b> for more details</p>
+                <p name="mobile"><i class="fa-solid fa-phone"></i> +91 8667099336</p>
+                <p name="mail"><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="img" style="background-image: url(/images/3.jpg);">
+                    <!-- <img src="/images/3.jpg" alt="Mike" style="width:100%; object-fit: cover;"> -->
+                </div>
+                <h3 name="breed">2 Labradors</h3>
+                <p class="w3-opacity" name="age">Age &lt; 2 weeks</p>
+                <p>Contact <b>Arun</b> for more details</p>
+                <p name="mobile"><i class="fa-solid fa-phone"></i> +91 8667099336</p>
+                <p name="mail"><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="img" style="background-image: url(/images/4.jpg);">
+                    <!-- <img src="/images/4.jpg" alt="Dan" style="width:100%; object-fit: cover;"> -->
+                </div>
+                <h3 name="breed">2 Labradors</h3>
+                <p class="w3-opacity" name="age">Age &lt; 2 weeks</p>
+                <p>Contact <b>Arun</b> for more details</p>
+                <p name="mobile"><i class="fa-solid fa-phone"></i> +91 8667099336</p>
+                <p name="mail"><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+            </div>
+        </div>
+
+        <!-- End page content -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <div style="display: inline-flex; justify-content: space-between; width: 40%;">
+            <p style="margin: 0 5%;"><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+            <p style="margin: 0 5%;"><i class="fa-solid fa-phone"></i>+911234567890</p>
+        </div>
+    </footer>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script> -->
+</body>
+
+</html>
